@@ -1,0 +1,97 @@
+/*Here we will create ipad and desktop layouts styles
+This is for a responsive web design with media queries*/
+
+/*this are called break out points*/
+@media screen and (min-width: 480px) { /*this means if screen is bigger tham 480px style will change*/
+  /********************
+2 COLUMN LAYOUT
+*********************/
+#primary {
+  width: 50%;
+  float: left;
+}
+
+#secondary {
+  width: 40%;
+  float: right;
+  }
+
+.contact-Wrap {
+  margin-bottom: 8%;
+  padding-bottom: 5%;
+}
+
+nav {
+  margin: 20px 0 0;  
+  }
+nav a {
+  font-weight: bold;
+  padding: 15px 10px;
+}
+
+
+
+/************************
+PAGE: PORTFOLIO
+*********************/
+
+  /******************************
+  3*5= 15
+  100%-15%= 85%
+  85/3 = 28.333333333333
+  *******************************/
+
+/************************
+PAGE: ABOUT
+*********************/
+
+.profile-photo {
+  float: left;
+  margin: 0 5% 80px 0;
+  }
+
+
+/*maing curly bracket end*/
+}
+
+@media screen and (min-width: 670px ) {
+  
+
+  /************************
+  HEADER
+*********************/
+
+  nav {
+    background: none;
+    float: right;
+    font-size: 1.140em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+    margin: 20px 0;
+  }
+
+  #logo {
+    float: left;
+    margin-left: 5%;
+    font-size: 1em;
+    text-align: left;
+    width: 45%;
+  }
+
+  h1 {
+    font-size: 3.5em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+
+  header {
+    border-bottom: 5px solid #fff;
+  }
+}
+
+
+
